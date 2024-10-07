@@ -8,9 +8,6 @@ const PORT = process.env.PORT || 5000;
 
 // GitHub Personal Access Token
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-//token=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
-//client id=Ov23li0ON6Yqr9pVGI7g
-//client sec=3724814acf3d29ee0e00ed3e06056010c8cf268b
 // CORS configuration
 const corsOptions = {
   origin: ['https://github-login-three.vercel.app', 'http://localhost:3000'],
